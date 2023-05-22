@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: 'Roboto', sans-serif;
+    --font-alt: 'Poppins', sans-serif;
+    --white: '#fff';
+    --black: '#000';
+    --aqua_300: '#35E6E9';
+    --red_300: '#FF5678';
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
