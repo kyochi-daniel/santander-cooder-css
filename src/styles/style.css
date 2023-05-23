@@ -7,12 +7,35 @@
 :root {
     --font: 'Roboto', sans-serif;
     --font-alt: 'Poppins', sans-serif;
-    --white: '#fff';
-    --black: '#000';
-    --aqua_300: '#35E6E9';
-    --red_300: '#FF5678';
+    --white: #fff;
+    --black: #000;
+    --aqua_300: #35E6E9;
+    --red_300: #FF5678;
 
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.stage-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stage-01 h1 {
+    font-weight: 500;
+    font-size: 64px
+}
+
+.stage-01 h1 span {
+    color: var(--red_300);
 }
