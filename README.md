@@ -1,4 +1,4 @@
-<h1 align="center"> Landing Page</h1>
+<h1 align="center"> We Form</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <img alt="github-favorites" src=".github/preview.png" width="65%">
+  <img src=".github/preview.png" width="65%">
 </p>
 
 ## 🚀 Tecnologias
@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Landing page do intensivão da Rocketseat...
+We Form, é uma página Web que tem por intuito, registrar entidades na sua cidade, projeto bem simples e explicativo... Realizado no programa do Santander Cooder, disponibilizado pela plataforma ADA.
 
 [🔗 Clique aqui para acessar](https://projeto-explore.vercel.app/)
 
