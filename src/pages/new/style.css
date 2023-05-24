@@ -78,8 +78,6 @@ main {
     background-color: var(--aqua_300);
     color: var(--white);
 
-    text-decoration: none;
-
     border: 0;
     border-radius: 8px;
 
@@ -99,8 +97,6 @@ main {
 .stage-02 .show-entities {
     background-color: var(--red_300);
     color: var(--white);
-
-    text-decoration: none;
 
     border: 0;
     border-radius: 8px;
