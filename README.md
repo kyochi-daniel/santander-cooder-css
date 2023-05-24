@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 We Form, é uma página Web que tem por intuito, registrar entidades na sua cidade, projeto bem simples e explicativo... Realizado no programa do Santander Cooder, disponibilizado pela plataforma ADA.
 
-[🔗 Clique aqui para acessar](https://projeto-explore.vercel.app/)
+[🔗 Clique aqui para acessar](https://santander-cooder-css.vercel.app/index.html)
 
 ---
 
