@@ -17,7 +17,7 @@
     font-size: 1rem;
 }
 
-input, button, textarea {
+input, button, textarea, select, option {
     font-family: var(--font-alt);
 }
 
@@ -68,6 +68,8 @@ main {
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    margin-bottom: 1rem;
 }
 
 .stage-02 .new-entities a {
@@ -123,7 +125,11 @@ main {
 }
 
 .stage-02 form {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    margin-bottom: 2.5rem;
 }
 
 .stage-02 .input-name {
@@ -131,14 +137,41 @@ main {
     flex-direction: column;
 }
 
+.stage-02 .input-name input {
+    height: 2.5rem;
+
+    border-radius: 12px;
+    border: 2px solid #ccc;
+
+    padding: 0 0.75rem;
+}
+
 .stage-02 .input-fields-of-action {
     display: flex;
     flex-direction: column;
 }
 
+.stage-02 .input-fields-of-action select {
+    height: 2.5rem;
+
+    border-radius: 12px;
+    border: 2px solid #ccc;
+
+    color: var(--aqua_300);
+}
+
 .stage-02 .input-collection-points {
     display: flex;
     flex-direction: column;
+}
+
+.stage-02 .input-collection-points input {
+    height: 2.5rem;
+
+    border-radius: 12px;
+    border: 2px solid #ccc;
+
+    padding: 0 0.75rem;
 }
 
 @keyframes leftAnimation {
