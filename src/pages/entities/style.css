@@ -106,22 +106,13 @@ main {
     filter: brightness(0.9);
 }
 
+.stage-02 a {
+    transition: .2s;
+}
+
 .stage-02 p {
     font-size: 0.875rem;
     margin-bottom: -2.25rem;
-}
-
-.stage-02 a {
-    text-align: center;
-    font-size: 1.125rem;
-
-    color: var(--black);
-
-    transition: 0.2s;
-}
-
-.stage-02 a:hover {
-    filter: opacity(0.4);
 }
 
 .stage-02 form {
@@ -172,6 +163,24 @@ main {
     border: 2px solid #ccc;
 
     padding: 0 0.75rem;
+}
+
+.stage-02 .register-alt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.stage-02 .register-alt a {
+    color: var(--red_300);
+
+    text-decoration: none;
+}
+
+.stage-02 a:hover {
+    filter: opacity(0.4);
 }
 
 @keyframes leftAnimation {
