@@ -1,4 +1,4 @@
-<h1 align="center"> We Form(Only Desktop)</h1>
+<h1 align="center"> We Form</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
