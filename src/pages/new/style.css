@@ -193,3 +193,29 @@ main {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+
+
+    .stage-01 {
+        margin: 3.125rem 0 -2.5rem;
+    }
+
+    .stage-01 img {
+        width: 60%;
+    }
+
+    .stage-01 h1 {
+        font-size: 2.625rem;
+        text-align: center;
+    }
+
+    .stage-02 {
+        border: none;
+    }
+}
