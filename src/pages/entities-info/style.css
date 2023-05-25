@@ -124,7 +124,7 @@ main {
 .stage-02 .entities-cards p {
     color: var(--aqua_300);
 
-    border: 2px solid var(--aqua_300);
+    border: 1px solid var(--aqua_300);
     border-radius: 12px;
     
     padding: 0.375rem 2.5625rem;
