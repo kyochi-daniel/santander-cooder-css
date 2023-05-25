@@ -155,3 +155,39 @@ main {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .stage-01 img {
+        width: 50%;
+    }
+
+    .stage-01 h1 {
+        font-size: 2.625rem;
+        text-align: center;
+    }
+
+    .stage-02 {
+        border: none;
+    }
+
+    .stage-02 h2 {
+        font-size: 1.375rem;
+        text-align: center;
+        margin-top: -2.5rem;
+    }
+
+    .stage-02 p {
+        text-align: center;
+    }
+
+    .stage-02 .register {
+        font-size: 1rem;
+
+        margin-top: 1.25rem;
+    }
+}
