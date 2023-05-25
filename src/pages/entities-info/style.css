@@ -164,3 +164,26 @@ main {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    .stage-01 h1 {
+        font-size: 3rem;
+    }
+
+    .stage-02 {
+        border: 0;
+    }
+
+    .stage-02 .entities-cards h2 {
+        font-size: 0.875rem;
+    }
+
+    .stage-02 .entities-cards p {
+        font-size: 0.625rem;
+        padding: 0.5rem;
+    }
+
+    .stage-02 .entities-cards a {
+        font-size: 0.8125rem;
+    }
+}
